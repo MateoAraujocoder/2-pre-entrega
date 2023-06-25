@@ -231,18 +231,18 @@ nav {
 
 }
 .imagen-home1 {
-    height: 250px;
-    width: 320px;
+    height: 300px;
+    width: 40%;
     margin-top: 10px;
+    margin-left: 30%;
     padding-left: 10px;
-    display: flex;
-    justify-content: center;
+
 
 }
 
 .imagen-home2 {
-    width: 320px;
-    height: 250px;
+    width: 40%;
+    margin-left: 30%;
     padding-left: 10px;
 }
 
@@ -259,7 +259,8 @@ width: 100%;
 /** enlaces**/
 a {
     text-decoration: none;
-    color: #3d423c;
+ color: #3d423c;
+
 }
 
 .instagram {
@@ -293,11 +294,12 @@ margin-left: 10px;
 .body-grid {
     display: grid;
     grid-template-columns: 75% 0fr 1fr;
-    grid-template-rows: 150px 2fr 1fr;
+    grid-template-rows: 150px 1fr 1fr 15%; 
     grid-template-areas:
-        "header header main"
-        "div div main"
-        "footer footer main";
+        "header header header"
+        "div div div"
+        "main main main"
+        "footer footer footer";
     width: 100%;
 }
 
