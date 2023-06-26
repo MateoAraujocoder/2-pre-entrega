@@ -32,6 +32,7 @@ h1 {
     font-family: 'Quicksand', sans-serif;
     padding-bottom: 10px;
     padding-top: 10px;
+
 }
 
 #tiendas-cercanas{
@@ -231,19 +232,19 @@ nav {
 
 }
 .imagen-home1 {
-    height: 300px;
-    width: 40%;
+    height: 50vh;
+    width: 100vh;
     margin-top: 10px;
-    margin-left: 30%;
+    margin-left: 25%;
     padding-left: 10px;
 
 
 }
 
 .imagen-home2 {
-    width: 40%;
-    margin-left: 30%;
-    padding-left: 10px;
+    width: 100vh;
+    margin-left: 25%;
+
 }
 
 /**** footer ****/
@@ -252,9 +253,15 @@ footer {
     border-top: 1px solid;
     height: 100%;
 width: 100%;
+
 }
 
+.logo-tiendas{
+width: 100px;
+display: flex;
 
+
+}
 
 /** enlaces**/
 a {
@@ -294,7 +301,7 @@ margin-left: 10px;
 .body-grid {
     display: grid;
     grid-template-columns: 75% 0fr 1fr;
-    grid-template-rows: 150px 1fr 1fr 15%; 
+    grid-template-rows: 150px 30% 1fr 15%; 
     grid-template-areas:
         "header header header"
         "div div div"
@@ -421,7 +428,7 @@ grid-area: footer;
     }
     .imagen-home1 {
       width: 300px;
-       
+       height: 200px;
      
     }
     
