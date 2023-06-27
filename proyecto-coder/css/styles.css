@@ -332,7 +332,8 @@ a {
 
 .main-grid {
     grid-area: main;
-    background-color: darkgray;
+    background-color:#1c3166;
+
 }
 
 .div-grid {
