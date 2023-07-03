@@ -1,0 +1,25 @@
+/***selector universal***/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #3d423c;
+
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color: #3d423c;
+    background-color: #d0bc87;
+    font-size: 40px;
+    font-family: 'Quicksand', sans-serif;
+    padding-top: 20px;
+}
+
+h2 {
+    font-family: 'Quicksand', sans-serif;
+}

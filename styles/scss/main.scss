@@ -1,0 +1,36 @@
+/*reset*/
+@import "./base/reset" ;
+
+/*index*/
+@import "./pages/index";
+
+/*nosotros*/
+@import "./pages/nosotros";
+
+/*nuestro-menu*/
+@import "./pages/nuestro-menu";
+
+/*n-establecimientos*/
+@import "./pages/n-establecimientos";
+
+/*form*/
+@import  "./layout/form";
+
+/*navbar*/
+@import "./layout/navbar"; 
+
+/*home*/
+@import "./pages/home.scss";
+
+/*header */
+@import"./layout/header";
+
+/*imagenes*/
+@import "./layout/imagenes";
+
+/*footer*/
+@import "./layout/footer";
+
+/*grid*/
+@import "./layout/grid.scss";
+

@@ -204,17 +204,6 @@ header nav a {
 
 }
 
-/**** nav ****/
-nav {
-    background-color: #d0bc87;
-    display: flex;
-    justify-content: space-around;
-    padding-top: 20px;
-    padding-bottom: 10px;
-
-}
-
-
 
 /**** imagen ****/
 #imagen {
