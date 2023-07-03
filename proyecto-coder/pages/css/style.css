@@ -64,6 +64,16 @@ h2 {
   padding-top: 10px;
 }
 
+/*contacto*/
+.subtitulos-contacto {
+  font-family: "Quicksand", sans-serif;
+  color: #3d423c;
+  background-color: #e0dba4;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
 /*nosotros*/
 .titulo-nosotros {
   color: #3d423c;
@@ -151,6 +161,13 @@ nav {
   background-color: #e0dba4;
 }
 
+.h2-subtitulo {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  color: #3d423c;
+}
+
 /*header */
 /**header**/
 header {
@@ -192,9 +209,7 @@ header nav ul li a {
 
 .imagen-home2 {
   width: 98vh;
-}
-
-/*footer*/
+} /*footer*/
 /**** footer ****/
 footer {
   background-color: #d0bc87;
