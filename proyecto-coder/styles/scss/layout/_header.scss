@@ -2,7 +2,15 @@
 header {
     width: 100%;
  
-    nav ul li {
+    nav {
+        background-color: #d0bc87;
+        display: flex;
+        justify-content: space-around;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    
+    
+    ul li {
 
 
         font-size: 20px;
@@ -17,6 +25,9 @@ header {
         
         }
     }
+    
+    }
+    
 }
 
 

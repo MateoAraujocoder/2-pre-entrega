@@ -8,6 +8,84 @@
         "main main main"
         "footer footer footer";
     width: 100%;
+
+    /** TABLET **/
+
+/*****Home*****/
+@media(max-width: 1024px) {
+
+    .body-grid {
+        display: grid;
+        grid-template-columns: 70% 2fr 3fr;
+        grid-template-rows: 150px 2fr 3fr;
+        grid-template-areas:
+            "header header header"
+            "div div div"
+            "main main main"
+            "footer footer footer";
+        width: 100%;
+    }
+
+    .imagen-home1 {
+        width: 50%;
+        height: 50%;
+
+        
+      
+    }
+
+    .imagen-home2 {
+        width: 50%;
+
+
+    }
+ 
+    .botton-top{
+       display: none;
+    }
+}
+
+/*****MOBILE*****/
+
+/*****Home*****/
+@media(max-width:425px) {
+
+    .body-grid {
+        display: grid;
+        grid-template-columns: 70% 2fr 3fr;
+        grid-template-rows: 200px 100vh 1fr;
+        grid-template-areas:
+            "header header header"
+            "div div div"
+            "main main main"
+            "footer footer footer";
+        width: 100%;
+    }
+
+    .imagen-home1 {
+        width: 50%;
+      
+
+    }
+
+    .imagen-home2 {
+        width: 50%;
+
+
+    }
+
+    nav {
+        padding-top: 0px;
+        padding-bottom: 0px;
+        flex-direction: column;
+    }
+
+     
+    .botton-top{
+        display: none;
+     }
+}
+
 }
 
 .header-grid {
@@ -29,18 +107,55 @@
 .footer-grid {
     grid-area: footer;
 
+
 }
 
 /**GRID CONTACTO**/
 .body-grid-contacto {
     display: grid;
     grid-template-columns: 75% 0fr 1fr;
-    grid-template-rows: 40vh 2fr 1fr;
+    grid-template-rows: 50vh 1fr 1fr;
     grid-template-areas:
         "header header header"
         "form form form"
         "footer footer footer"
     ;
+
+    /*TABLET*/
+    
+/*****contacto*****/
+@media (max-width: 1024px) {
+
+    .body-grid-contacto {
+        grid-template-columns: 75% 0fr 1fr;
+        grid-template-rows: 40vh 2fr 1fr;
+        grid-template-areas:
+            "header header header"
+            "form form form"
+            "footer footer footer"
+        ;
+
+    }
+
+}
+
+/*MOBILE*/
+
+/*****contacto*****/
+@media (max-width: 1024px) {
+
+    .body-grid-contacto {
+        grid-template-columns: 75% 0fr 1fr;
+        grid-template-rows: 40vh 2fr 1fr;
+        grid-template-areas:
+            "header header header"
+            "form form form"
+            "footer footer footer"
+        ;
+
+    }
+
+}
 
 
 }
@@ -57,110 +172,5 @@
 
 .footer-grid-contacto {
     grid-area: footer;
-
-}
-
-
-
-
-/** TABLET **/
-
-/*****Home*****/
-@media(max-width: 1024px) {
-
-    .body-grid {
-        display: grid;
-        grid-template-columns: 70% 2fr 3fr;
-        grid-template-rows: 150px 2fr 3fr;
-        grid-template-areas:
-            "header header header"
-            "div div div"
-            "main main main"
-            "footer footer footer";
-        width: 100%;
-    }
-
-    .imagen-home1 {
-        width: 500px;
-        height: 300px;
-      
-    }
-
-    .imagen-home2 {
-        width: 50%;
-
-
-    }
-
-}
-
-
-
-/*****contacto*****/
-@media (max-width: 1024px) {
-
-    .body-grid-contacto {
-        grid-template-columns: 75% 0fr 1fr;
-        grid-template-rows: 40vh 2fr 1fr;
-        grid-template-areas:
-            "header header header"
-            "form form form"
-            "footer footer footer"
-        ;
-
-    }
-
-}
-
-/*****MOBILE*****/
-
-/*****Home*****/
-@media(max-width:425px) {
-
-    .body-grid {
-        display: grid;
-        grid-template-columns: 70% 2fr 3fr;
-        grid-template-rows: 200px 100vh 1fr;
-        grid-template-areas:
-            "header header header"
-            "div div div"
-            "main main main"
-            "footer footer footer";
-        width: 100%;
-    }
-
-    .imagen-home1 {
-        width: 300px;
-        height: 200px;
-
-    }
-
-    .imagen-home2 {
-        width: 50%;
-
-
-    }
-
-    nav {
-        padding-top: 0px;
-        padding-bottom: 0px;
-        flex-direction: column;
-    }
-
-}
-
-/*****contacto*****/
-@media (max-width: 1024px) {
-
-    .body-grid-contacto {
-        grid-template-columns: 75% 0fr 1fr;
-        grid-template-rows: 40vh 2fr 1fr;
-        grid-template-areas:
-            "header header header"
-            "form form form"
-            "footer footer footer"
-        ;
-
-    }
 
 }
