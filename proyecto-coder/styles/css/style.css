@@ -135,11 +135,10 @@ h2 {
 .input {
   height: 30px;
 }
-.input .asunto {
-  height: 70px;
-  width: 67%;
-  margin-top: 10px;
-  display: flex;
+
+.asunto {
+  height: 50px;
+  width: 600px;
 }
 
 /*home*/
@@ -242,33 +241,20 @@ footer .botton-top {
 
 /*enlaces*/
 /** enlaces**/
-#ancla-home1 {
+#ancla-home1, #ancla-home2 {
   display: flex;
   justify-content: center;
 }
 
-#ancla-home2 {
-  display: flex;
-  justify-content: center;
-}
-
-.instagram {
+.instagram, .linkedin, .facebook {
   width: 40px;
   height: 40px;
   margin-left: 10px;
+  margin-right: 10px;
 }
 
 .facebook {
   margin-top: 20px;
-  width: 40px;
-  height: 40px;
-  margin-left: 10px;
-}
-
-.linkedin {
-  width: 40px;
-  height: 40px;
-  margin-left: 10px;
 }
 
 /*grid*/
@@ -366,6 +352,9 @@ footer .botton-top {
     grid-template-columns: 75% 0fr 1fr;
     grid-template-rows: 40vh 2fr 1fr;
     grid-template-areas: "header header header" "form form form" "footer footer footer";
+  }
+  .body-grid-contacto .asunto {
+    width: 200px;
   }
 }
 
