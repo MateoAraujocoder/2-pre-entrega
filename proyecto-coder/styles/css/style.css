@@ -131,7 +131,9 @@ h2 {
   margin: 10px;
 }
 
-/*form*/
+.mapa {
+  width: 100%;
+} /*form*/
 .input {
   height: 30px;
 }
@@ -211,6 +213,11 @@ header nav ul li a {
   width: 97.5vh;
 }
 
+#img-nosotros {
+  width: 100%;
+  height: 50%;
+}
+
 /*footer*/
 /**** footer ****/
 footer {
@@ -260,7 +267,7 @@ footer .botton-top {
 /*grid*/
 .body-grid {
   display: grid;
-  grid-template-columns: 75% 0fr 1fr;
+  grid-template-columns: 75% 0% 1fr;
   grid-template-rows: 150px 30% 1fr 15%;
   grid-template-areas: "header header header" "div div div" "main main main" "footer footer footer";
   width: 100%;
@@ -368,6 +375,63 @@ footer .botton-top {
 }
 
 .footer-grid-contacto {
+  grid-area: footer;
+}
+
+/**GRID NOSOTROS**/
+/*****MOBILE*****/
+@media (max-width: 425px) {
+  .body-grid-nosotros {
+    display: grid;
+    grid-template-columns: 40% 20% 40%;
+    grid-template-rows: 15% 30% 50% 200px;
+    grid-template-areas: "header header header" "main main main" "ul ul ul" "footer footer footer";
+    width: 100%;
+    height: 100%;
+  }
+  #img-nosotros {
+    width: 100%;
+    height: 50%;
+  }
+  .titulo-nosotros {
+    margin-left: 10px;
+  }
+  .ul-nosotros {
+    display: none;
+  }
+}
+/** TABLET **/
+/*****nosotros*****/
+@media (max-width: 1024px) {
+  .body-grid-nosotros {
+    display: grid;
+    grid-template-columns: 70% 2fr 3fr;
+    grid-template-rows: 2fr 710px 100px 300px;
+    grid-template-areas: "header header header" "main main main" "ul ul ul" "footer footer footer";
+    width: 100%;
+  }
+  #img-nosotros {
+    width: 100%;
+    height: 50%;
+  }
+  .titulo-nosotros {
+    margin-left: 10px;
+  }
+}
+/**GRID-AREA**/
+.header-grid-nosotros {
+  grid-area: header;
+}
+
+.main-grid-nosotros {
+  grid-area: main;
+}
+
+.ul-nosotros {
+  grid-area: ul;
+}
+
+.footer-grid-nosotros {
   grid-area: footer;
 }
 
