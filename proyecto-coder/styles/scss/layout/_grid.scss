@@ -84,6 +84,11 @@
     .botton-top{
         display: none;
      }
+.logo-tiendas{
+display: none;
+
+}
+
 }
 
 }
@@ -260,4 +265,39 @@ height: 50%;
 
 .footer-grid-nosotros{
     grid-area: footer;
+}
+
+
+/*****MOBILE*****/
+
+/*****Home*****/
+@media(max-width:425px) {
+
+    .body-grid-menu {
+        display: grid;
+        grid-template-columns: 100% 0fr 0fr;
+        grid-template-rows: 500px 150vh 1fr;
+        grid-template-areas:
+            "header header header"
+            "span span span"
+            "footer footer footer";
+        width: 100%;
+    }
+
+    nav{
+flex-direction: column;
+
+    }
+}
+
+.header-grid-menu{
+    grid-area: header;
+}
+
+.span-grid-menu{
+grid-area: span;
+}
+
+.footer-grid-menu{
+grid-area: footer;
 }
