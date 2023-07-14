@@ -320,6 +320,12 @@ footer .botton-top {
   .body-grid .logo-tiendas {
     display: none;
   }
+  .body-grid .h3-subtitulo {
+    display: none;
+  }
+  .body-grid .h2-subtitulo {
+    margin-top: 40px;
+  }
 }
 
 .header-grid {
@@ -439,7 +445,7 @@ footer .botton-top {
 }
 
 /*****MOBILE*****/
-/*****Home*****/
+/*****nuestro-menu*****/
 @media (max-width: 425px) {
   .body-grid-menu {
     display: grid;

@@ -89,6 +89,16 @@ display: none;
 
 }
 
+    .h3-subtitulo{
+display: none;
+
+    }
+    .h2-subtitulo {
+   margin-top: 40px;
+   
+    }
+
+
 }
 
 }
@@ -270,7 +280,7 @@ height: 50%;
 
 /*****MOBILE*****/
 
-/*****Home*****/
+/*****nuestro-menu*****/
 @media(max-width:425px) {
 
     .body-grid-menu {
@@ -288,6 +298,8 @@ height: 50%;
 flex-direction: column;
 
     }
+
+
 }
 
 .header-grid-menu{
